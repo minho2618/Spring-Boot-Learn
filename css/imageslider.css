@@ -1,0 +1,48 @@
+/*애니메이션 캔버스*/
+.animation_canvas {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+/*슬라이더 패널*/
+.slider_panel {
+    width: 3000px;
+    position: relative;
+}
+.slider_image {
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+/*슬라이더 텍스트 패널*/
+.slider_text_panel {
+    top: 300px;
+    left: 50px;
+    position: absolute;
+}
+.slider_text {
+    width: 250px;
+    height: 150px;
+    color: white;
+    position: absolute;
+}
+/*컨트롤 패널*/
+.control_panel {
+    top: 380px;
+    left: 270px;
+    height: 13px;
+    position: absolute;
+    overflow: hidden;
+}
+/*컨트롤 버튼 패널*/
+.control_button {
+    float: left;
+    width: 12px;
+    height: 46px;
+    background: url('../image/point.png');
+    cursor: pointer;
+    position: relative;
+}
+.control_button:hover { top: -16px; }
+.control_button.active { top: -16px; }

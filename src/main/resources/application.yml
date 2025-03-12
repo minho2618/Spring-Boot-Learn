@@ -1,0 +1,21 @@
+# 스프링 부트를 설정할 수 있는 파일
+spring:
+  application:
+    name: "Spring-Boot-Learn"
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+    # 테이블 생성 후에 data.sql 실행
+    defer-datasource-initialization: true

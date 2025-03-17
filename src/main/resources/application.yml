@@ -19,3 +19,9 @@ spring:
 
     # 테이블 생성 후에 data.sql 실행
     defer-datasource-initialization: true
+  thymeleaf:
+    prefix: classpath:/templates/   # 템플릿 파일이 위치한 경로
+    suffix: .html                   # HTML 파일 확장자 자동 추가
+    mode: HTML                      # HTML 모드 설정
+    cache: false                     # 개발 중에는 캐시를 비활성화하여 변경 사항이 즉시 반영되도록 설정
+    encoding: UTF-8                  # UTF-8 인코딩 설정

@@ -1,1 +1,2 @@
 # Spring Boot Learn
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/minho2618/Spring-Boot-Learn?utm_source=oss&utm_medium=github&utm_campaign=minho2618%2FSpring-Boot-Learn&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
